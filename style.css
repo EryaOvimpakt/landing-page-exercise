@@ -39,11 +39,10 @@ a {
     gap: 24px
 }
 
-.container {
+.banner .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
 }
 
 .banner-title {
@@ -65,7 +64,4 @@ button {
     border: none;
 }
 
-img {
-    flex: 1;
-}
 
