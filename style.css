@@ -64,4 +64,34 @@ button {
     border: none;
 }
 
+.information {
+    text-align: center;
+    padding: 24px;
+    margin-bottom: 48px;
+}
 
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.information .container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.card img {
+    border: 3px solid #3882F6;
+    border-radius: 6px;
+    width: inherit;
+    height: 100px;
+    
+}
