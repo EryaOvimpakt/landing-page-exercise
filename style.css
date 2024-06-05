@@ -92,6 +92,25 @@ button {
     border: 3px solid #3882F6;
     border-radius: 6px;
     width: inherit;
-    height: 100px;
-    
+    height: 100px;   
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 150px;
+    color: #1F2937;
+}
+
+.text {
+    max-width: 500px;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
 }
