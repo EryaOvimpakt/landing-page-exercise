@@ -79,7 +79,7 @@ button {
 .information .container {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 38px;
 }
 
 .card {
@@ -102,15 +102,40 @@ button {
     align-items: center;
     padding: 48px 150px;
     color: #1F2937;
+    
 }
 
-.text {
-    max-width: 500px;
+.quote .text {
+    width: 500px;
     font-style: italic;
     font-size: 26px;
+    display: flex;
+    flex-direction: column;
 }
 
 .author {
     align-self: flex-end;
     font-weight: 700;
 }
+
+.cta-container {
+    padding: 48px 150px;
+}
+
+.cta {
+    background: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 72px;
+    border-radius: 6px;
+}
+
+span {
+    font-size: 14px;
+}
+
+.cta-container button {
+    border: 2px solid #F9FAF8;
+}
+
